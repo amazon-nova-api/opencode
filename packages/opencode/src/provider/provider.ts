@@ -764,7 +764,7 @@ export namespace Provider {
             },
             capabilities: {
               temperature: true,
-              reasoning: false,
+              reasoning: true,
               attachment: true,
               toolcall: true,
               input: { text: true, audio: false, image: true, video: false, pdf: false },
